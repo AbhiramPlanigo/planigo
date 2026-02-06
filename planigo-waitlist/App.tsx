@@ -5,6 +5,7 @@ import Features from './components/Features';
 import SocialProof from './components/SocialProof';
 import CTA from './components/CTA';
 import BackgroundBlobs from './components/BackgroundBlobs';
+import CardScanner from './components/CardScanner/CardScanner';
 import { ArrowUp } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -22,11 +23,17 @@ const App: React.FC = () => {
     <div className="min-h-screen relative selection:bg-purple-500/30">
       <BackgroundBlobs />
       <Header />
-      
+
       <main>
         <div id="waitlist">
           <Hero />
         </div>
+
+        {/* New Animation Section */}
+        <section className="relative z-10 py-0">
+          <CardScanner />
+        </section>
+
         <Features />
         <SocialProof />
         <CTA />
@@ -41,12 +48,11 @@ const App: React.FC = () => {
       </footer>
 
       {/* Sticky CTA */}
-      <div 
-        className={`fixed bottom-8 right-8 z-[100] transition-all duration-500 ${
-          showSticky ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
-        }`}
+      <div
+        className={`fixed bottom-8 right-8 z-[100] transition-all duration-500 ${showSticky ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
+          }`}
       >
-        <a 
+        <a
           href="#waitlist"
           className="flex items-center gap-2 px-6 py-4 bg-purple-600 hover:bg-purple-500 text-white rounded-full font-bold shadow-2xl shadow-purple-600/40 active:scale-95 transition-all"
         >

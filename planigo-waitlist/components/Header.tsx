@@ -16,38 +16,38 @@ const Header: React.FC = () => {
         {/* Right: Socials & CTA */}
         <div className="flex items-center gap-4 md:gap-8">
           <div className="hidden lg:flex items-center gap-5">
-            <a 
-              href="https://www.linkedin.com/company/spoton-startup/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/company/spoton-startup/"
+              target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-200/30 hover:text-blue-400 transition-all duration-300 hover:scale-110"
+              className="text-purple-200/30 hover:text-planigo-blue transition-all duration-300 hover:scale-110"
               aria-label="LinkedIn"
             >
               <Linkedin size={18} />
             </a>
-            <a 
-              href="https://www.instagram.com/planigoo?igsh=MTU1c244ZHd1bDF4bw==" 
-              target="_blank" 
+            <a
+              href="https://www.instagram.com/planigoo?igsh=MTU1c244ZHd1bDF4bw=="
+              target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-200/30 hover:text-pink-400 transition-all duration-300 hover:scale-110"
+              className="text-purple-200/30 hover:text-planigo-pink transition-all duration-300 hover:scale-110"
               aria-label="Instagram"
             >
               <Instagram size={18} />
             </a>
-            <a 
-              href="https://www.facebook.com/spotonstartup?mibextid=ZbWKwL" 
-              target="_blank" 
+            <a
+              href="https://www.facebook.com/spotonstartup?mibextid=ZbWKwL"
+              target="_blank"
               rel="noopener noreferrer"
-              className="text-purple-200/30 hover:text-blue-600 transition-all duration-300 hover:scale-110"
+              className="text-purple-200/30 hover:text-planigo-blue transition-all duration-300 hover:scale-110"
               aria-label="Facebook"
             >
               <Facebook size={18} />
             </a>
           </div>
 
-          <a 
-            href="#waitlist" 
-            className="px-5 py-2 rounded-full bg-gradient-to-r from-orange-500 to-purple-600 text-white text-sm font-bold hover:shadow-lg hover:shadow-purple-500/25 transition-all active:scale-95 whitespace-nowrap"
+          <a
+            href="#waitlist"
+            className="px-5 py-2 rounded-full bg-gradient-to-r from-planigo-orange to-planigo-indigo text-white text-sm font-bold hover:shadow-lg hover:shadow-planigo-indigo/25 transition-all active:scale-95 whitespace-nowrap"
           >
             Join Waitlist
           </a>
